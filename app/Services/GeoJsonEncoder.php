@@ -62,7 +62,7 @@ class GeoJsonEncoder
 		}
 		if($level <= -84 && $level >= -94)
 		{
-			return "Ok";
+			return "Fair";
 		}
 		if($level <= -74 && $level >= -83)
 		{

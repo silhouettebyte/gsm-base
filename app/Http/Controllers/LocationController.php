@@ -38,7 +38,7 @@ class LocationController extends Controller
 		Log::info('REQUEST DATA', ['request' => $data]);
 
 		$data['rssi'] = -113 + $data['rssi'] * 2;
-		if($data['network'] == '0')
+		if($data['network'][0] == '0')
 		{
 			$data['network'] = 'Not Registered';
 		}
