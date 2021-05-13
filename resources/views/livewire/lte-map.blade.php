@@ -136,7 +136,7 @@
                             'match',
                             ['get', 'strength'],
                             'Marginal', '#fb8703',
-                            'Ok', '#eefb03',
+                            'Fair', '#eefb03',
                             'Good', '#a4fb03',
                             'Excellent', '#10fb03',
                             'rgb(251, 3, 3)',

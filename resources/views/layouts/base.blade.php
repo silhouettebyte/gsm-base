@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>DashboardKit Bootstrap 5 Admin Template</title>
+    <title>4G Cellular Signal Strength</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -166,7 +166,7 @@
                     <a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                         <img src="/assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
                         <span>
-								<span class="user-name">Joseph William</span>
+								<span class="user-name">CESSSSLO</span>
 							</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right pc-h-dropdown">

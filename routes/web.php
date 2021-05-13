@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function() {
+	return redirect('/dashboard');
+});
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/v1/ping', [\App\Http\Controllers\LocationController::class, 'ping']);

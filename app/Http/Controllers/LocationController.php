@@ -38,16 +38,6 @@ class LocationController extends Controller
 		Log::info('REQUEST DATA', ['request' => $data]);
 
 		$data['rssi'] = -113 + $data['rssi'] * 2;
-		if($data['network'][0] == '0')
-		{
-			$data['network'] = 'Not Registered';
-		}
-		if($data['network'] != '0')
-		{
-			$a = explode(',', $data['network'][2]);
-			$data['network'] = explode(' ', $a[0])[0];
-		}
-
 		$data['geoloc'] = $this->nmea_convert($data['gnss']);
 
 		Log::info('DUMP', [
